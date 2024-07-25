@@ -1,6 +1,6 @@
 import React from "react";
-import Styles from "./Hero.module.css";
-import { ReactComponent as VibratingHeadphone } from "../../assets/hero.svg";
+import Styles from "./HeroSection.module.css";
+import { ReactComponent as VibratingHeadphone } from "../../assets/vibratingHeadphone.svg";
 
 const HeroSection = () => {
   return (
@@ -15,4 +15,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-

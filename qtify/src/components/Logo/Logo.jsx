@@ -1,6 +1,11 @@
-import React from "react";
-import LogoImage from "../../assets/logo.svg";
-
-export default function Logo() {
-  return <img src={LogoImage} alt="logo" width={67} />;
+import React from 'react'
+import BrandLogo from "../../assets/BrandLogo.png"
+const Logo = () => {
+  return (
+    <div>
+        <img src={BrandLogo} alt='logo' width={67} />
+        </div>
+  )
 }
+
+export default Logo
